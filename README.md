@@ -33,7 +33,7 @@ rake db:migrate
 ```sh
 rails server
 ```
-Visit localhost:3000 in a web browser to see the application
+Visit localhost:3000 in a web browser to see the application. When finished, hit Control-C in the terminal windows to kill the rails server.
 
 ### Set up a Twilio Account
 
@@ -81,7 +81,7 @@ Fast deployment for demos and testing
 - Download ngrok https://ngrok.com
 - Unzip the download
 - Make sure your rails server is running
-- Run ngrok (e.g. ~/Downloads/ngrok http 3000)
+- In a new terminal window, run ngrok (e.g. ~/Downloads/ngrok http 3000)
 ```sh
 ~/path/to/your/download/ngrok http 3000
 ```
