@@ -81,7 +81,7 @@ Fast deployment for demos and testing
 - Download ngrok https://ngrok.com
 - Unzip the download
 - Make sure your rails server is running
-- Run ngrok
+- Run ngrok (e.g. ~/Downloads/ngrok http 3000)
 ```sh
 ~/path/to/your/download/ngrok http 3000
 ```

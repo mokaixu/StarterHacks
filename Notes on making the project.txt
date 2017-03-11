@@ -1,0 +1,44 @@
+Steps to create:
+
+http://guides.rubyonrails.org/getting_started.html
+
+rails new StarterHacks
+
+http://guides.rubyonrails.org/command_line.html#rails-generate (Search for “scaffold”)
+
+rails generate scaffold Message phone_number:string text_message:text
+
+rake db:migrate
+
+rails server
+
+Visit http://localhost:3000/messages
+
+Added “root ‘messages#index’” to config/routes.rb so that your homepage is the message list
+
+Googled “twillio rails” -> https://www.twilio.com/blog/2014/02/twilio-on-rails-integrating-twilio-with-your-rails-4-app.html
+
+https://www.twilio.com/blog/2016/05/calling-rails-5-getting-started-with-twilio-on-rails.html
+
+- Twillio Account
+- Twillio Number
+
+gem "twilio-ruby"
+
+bundle install
+
+https://www.twilio.com/docs/tutorials/walkthrough/server-notifications/ruby/rails
+
+https://github.com/laserlemon/figaro
+
+gem “figaro”
+
+bundle install
+
+bundle exec figaro install
+
+download ngrok
+
+
+
+
